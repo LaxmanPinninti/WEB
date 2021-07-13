@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+   <center><h1>Time using js</h1>
+    <span id="hari"></span>
+  <script>
+    function getTime(){
+var h=new Date();
+var a=h.getMinutes();
+var b=h.getSeconds();
+var c= h.getHours();
+document.getElementById("hari").innerHTML = c + ":"+ a+":"+b;
+setInterval("getTime()",1000);
+    }
+  getTime();
+  </script>
+  
+  
+  
+  
+   </center>
+  
+  
+  
+</body>
+</html>

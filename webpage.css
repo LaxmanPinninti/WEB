@@ -1,0 +1,21 @@
+
+li{display:inline;padding: 10px;width: auto; float:left;border: 1px solid;background-color: palegreen;}
+li:hover{background-color: plum;}
+input{float: right;}
+
+
+
+    nav{overflow: hidden;}
+
+    footer{border: 1px solid;position: relative; top: 100%;padding: 20px ;width:auto ;background-color: palegreen;
+     word-spacing: 30px; text-align: center;font-weight: bold; display:block;}
+     footer div a:hover{background-color:plum;}
+
+   
+  
+
+  #top{float: right;border: 2px solid black;font-weight: bolder;}
+
+     
+    
+    
